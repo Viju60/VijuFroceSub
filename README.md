@@ -1,4 +1,4 @@
-# Force Subscribing Bot [@ForceSubscribingBot](https://t.me/ForceSubscribingBot)
+#  Viju Force Subscribing Bot [@ForceSubscribingBot](https://t.me/ForceSubscribingBot)
 
 > A star ⭐ from you means a lot to us!
 
