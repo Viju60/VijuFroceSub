@@ -8,12 +8,12 @@ Hey {}
 
 Welcome to {}
 
-I can force your group's users to join a particular chat. 
+**I can force your group's users to join a particular chat. 
 The chat can be a group or channel. It can be private or public.
 
-Use below buttons to learn more !
+Use below buttons to learn more !**
 
-By @StarkBots
+By @ItsMeVijuu
     """
 
     # Home Button
@@ -28,8 +28,7 @@ By @StarkBots
             InlineKeyboardButton("How to Use ❔", callback_data="help"),
             InlineKeyboardButton("🎪 About 🎪", callback_data="about")
         ],
-        [InlineKeyboardButton("♥ More Amazing bots ♥", url="https://t.me/StarkBots")],
-        [InlineKeyboardButton("🎨 Support Group 🎨", url="https://t.me/StarkBotsChat")],
+        [InlineKeyboardButton("🤖 Owner 🤖", url="https://t.me/ItsMeVijuu")],
     ]
 
     # Help Message
@@ -62,13 +61,13 @@ Example : `/fsub -1001505616678` or `/forcesubscribe -1001375849192`
     ABOUT = """
 **About This Bot** 
 
-A telegram force subscribing bot by @StarkBots
+A telegram force subscribing bot by @ItsMeVijuu
 
-Source Code : [Click Here](https://github.com/StarkBotsIndustries/ForceSubscribeBot)
+✅ Developer: @ItsMeVijuu
 
-Framework : [Pyrogram](docs.pyrogram.org)
+✅ Framework : [Pyrogram](docs.pyrogram.org)
 
-Language : [Python](www.python.org)
+✅ Language : [Python](www.python.org)
 
-Developer : @StarkProgrammer
+✅ Join : @Cet_Jee_Neet_Poll
     """
