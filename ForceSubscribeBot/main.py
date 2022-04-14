@@ -45,8 +45,7 @@ async def main(bot: Client, msg: Message):
                     await msg.chat.restrict_member(user_id, ChatPermissions(can_send_messages=False))
                     buttons.append([InlineKeyboardButton("Unmute Me", callback_data=f"joined+{msg.from_user.id}")])
                 await msg.reply(
-                    f"**Step 1 = 1st You Join {mention} to chat here.**
-**Step = 2 Then Click on Unmute Me & You can able to chat in this group.**",
+                    f"Step 1 = 1st You Join {mention} to chat here.\nStep = 2 Then Click on Unmute Me & You can able to chat in this group.",
                     disable_web_page_preview=True,
                     reply_markup=InlineKeyboardMarkup(buttons),
                 )
